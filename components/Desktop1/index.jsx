@@ -1,9 +1,11 @@
 import React from "react";
-import NFTList from "../NFTList";
-import ButtonDefault from "../ButtonDefault";
+import NFTList3 from "../NFTList3";
+import ButtonDefault2 from "../ButtonDefault2";
+import DesktopFooterLight2 from "../DesktopFooterLight2";
 import Headline from "../Headline";
 import styled from "styled-components";
 import {
+  InterNormalWhite46px,
   Link,
   InterNormalWhite80px,
   InterNormalWhite32px,
@@ -17,199 +19,191 @@ import {
 } from "../../styledMixins";
 import "./Desktop1.css";
 
-function Desktop1(props) {
-  const {
-    whatIsCthulhuClub,
-    cthulhuClubIsDesi,
-    background1,
-    roadmap1,
-    phase01,
-    phase02,
-    phase03,
-    mintOut1111Cth,
-    deployCthulhuAtt,
-    releaseSneakPeak,
-    faq1,
-    spanText1,
-    spanText2,
-    spanText3,
-    spanText4,
-    spanText5,
-    spanText6,
-    spanText7,
-    spanText8,
-    spanText9,
-    spanText10,
-    spanText11,
-    spanText12,
-    spanText13,
-    spanText14,
-    spanText15,
-    spanText16,
-    spanText17,
-    spanText18,
-    spanText19,
-    nftSneakPeak,
-    x1261,
-    x2170,
-    x2705,
-    x3805C48449A948A3Bd8A12A1C45Fa08A11,
-    cthulhuClubNft1,
-    copyright,
-    joinTheClub,
-    telegram,
-    discord,
-    twitter,
-    firstcthulhu,
-    mintNowButton,
-    x3805C48449A948A3Bd8A12A1C45Fa08A12,
-    cthulhuClubNft2,
-    place,
-    mint,
-    roadmap2,
-    faq2,
-    nFTList1Props,
-    nFTList2Props,
-    nFTList3Props,
-    nFTList4Props,
-    nFTList5Props,
-    buttonDefaultProps,
-    headlineProps,
-  } = props;
+class Desktop1 extends React.Component {
+  render() {
+    const {
+      whatIsCthulhuClub,
+      cthulhuClubIsDesi,
+      background1,
+      roadmap1,
+      phase01,
+      phase02,
+      phase03,
+      mintOut1111Cth,
+      deployCthulhuAtt,
+      releaseSneakPeak,
+      faq1,
+      spanText1,
+      spanText2,
+      spanText3,
+      spanText4,
+      spanText5,
+      spanText6,
+      spanText7,
+      spanText8,
+      spanText9,
+      spanText10,
+      spanText11,
+      spanText12,
+      spanText13,
+      spanText14,
+      spanText15,
+      spanText16,
+      spanText17,
+      spanText18,
+      spanText19,
+      nftSneakPeak,
+      x1261,
+      x2170,
+      x2705,
+      joinTheClub,
+      telegram,
+      discord,
+      twitter,
+      firstcthulhu,
+      mintNowButton,
+      x3805C48449A948A3Bd8A12A1C45Fa08A1,
+      cthulhuClubNft,
+      place,
+      mint,
+      roadmap2,
+      faq2,
+      nFTList31Props,
+      nFTList32Props,
+      nFTList33Props,
+      nFTList34Props,
+      nFTList35Props,
+      buttonDefault2Props,
+      headlineProps,
+    } = this.props;
 
-  return (
-    <div className="container-center-horizontal">
-      <div className="desktop-1 screen">
-        <OverlapGroupContainer>
-          <OverlapGroupContainer1>
-            <OverlapGroup>
-              <Ellipse19 src="/img/ellipse-19@2x.svg" />
-              <WhatIsCthulhuClub>{whatIsCthulhuClub}</WhatIsCthulhuClub>
-              <CthulhuClubIsDesi>{cthulhuClubIsDesi}</CthulhuClubIsDesi>
-              <Rectangle7 src="/img/rectangle-7@1x.svg" />
-              <Background1 src={background1} />
-            </OverlapGroup>
-            <OverlapGroup5>
-              <Ellipse8 src="/img/ellipse-8@2x.svg" />
-              <Roadmap id="roadmap">
-                <Roadmap1>{roadmap1}</Roadmap1>
-                <PhaseContainer>
-                  <Phase01>{phase01}</Phase01>
-                  <Phase02>{phase02}</Phase02>
-                  <Phase03>{phase03}</Phase03>
-                </PhaseContainer>
-                <FlexRow>
-                  <MintOut1111Cth>{mintOut1111Cth}</MintOut1111Cth>
-                  <DeployCthulhuAtt>{deployCthulhuAtt}</DeployCthulhuAtt>
-                  <ReleaseSneakPeak>{releaseSneakPeak}</ReleaseSneakPeak>
-                </FlexRow>
-              </Roadmap>
-              <Group70 id="group-70">
-                <OverlapGroup2>
-                  <FAQ>{faq1}</FAQ>
-                  <HowManyWillBeMin>
-                    <span className="inter-bold-white-36px">{spanText1}</span>
-                    <span className="inter-normal-white-30px">{spanText2}</span>
-                    <span className="inter-normal-white-36px">{spanText3}</span>
-                    <span className="inter-bold-white-36px">{spanText4}</span>
-                    <span className="inter-normal-white-36px">{spanText5}</span>
-                    <span className="inter-normal-white-30px">{spanText6}</span>
-                    <span className="inter-normal-white-36px">{spanText7}</span>
-                    <span className="inter-bold-white-36px">{spanText8}</span>
-                    <span className="inter-normal-white-36px">{spanText9}</span>
-                    <span className="inter-normal-white-30px">{spanText10}</span>
-                    <span className="inter-normal-white-36px">{spanText11}</span>
-                    <span className="inter-bold-white-36px">{spanText12}</span>
-                    <span className="inter-normal-white-36px">{spanText13}</span>
-                    <span className="inter-normal-white-30px">{spanText14}</span>
-                    <span className="inter-normal-white-36px">{spanText15}</span>
-                    <span className="inter-bold-white-36px">{spanText16}</span>
-                    <span className="inter-normal-white-30px">{spanText17}</span>
-                    <span className="inter-bold-white-36px">{spanText18}</span>
-                    <span className="inter-normal-white-36px">{spanText19}</span>
-                  </HowManyWillBeMin>
-                </OverlapGroup2>
-                <Group69>
-                  <NFTSneakPeak>{nftSneakPeak}</NFTSneakPeak>
-                  <OverlapGroup1>
-                    <Group67>
-                      <NFTList className={nFTList1Props.className} />
-                      <NFTList className={nFTList2Props.className} />
-                    </Group67>
-                    <NftListContainer>
-                      <NFTList className={nFTList3Props.className} />
-                      <NFTList className={nFTList4Props.className} />
-                      <NFTList className={nFTList5Props.className} />
-                    </NftListContainer>
-                    <ButtonDefault className={buttonDefaultProps.className} />
-                    <X1261 src={x1261} />
-                    <X2170 src={x2170} />
-                    <X2705 src={x2705} />
-                  </OverlapGroup1>
-                </Group69>
-              </Group70>
-            </OverlapGroup5>
-          </OverlapGroupContainer1>
-          <OverlapGroup4>
-            <DesktopFooterLight2>
-              <X3805C48449A948A3BD8A12A1C45FA08A1 src={x3805C48449A948A3Bd8A12A1C45Fa08A11} />
-              <CthulhuClubNFT>{cthulhuClubNft1}</CthulhuClubNFT>
-              <Copyright>{copyright}</Copyright>
-            </DesktopFooterLight2>
-            <JoinTheClub>{joinTheClub}</JoinTheClub>
-            <a href="https://www.t.me/cthulhuclubnft" target="_blank">
-              <Telegram>{telegram}</Telegram>
-            </a>
-            <Line20 src="/img/line-20@2x.svg" />
-            <a href="https://discord.gg/AYaEfzuXqN" target="_blank">
-              <Discord>{discord}</Discord>
-            </a>
-            <Line19 src="/img/line-20@2x.svg" />
-            <a href="https://twitter.com/cthulhuclubnft" target="_blank">
-              <Twitter>{twitter}</Twitter>
-            </a>
-          </OverlapGroup4>
-        </OverlapGroupContainer>
-        <Firstcthulhu className="animate-enter1" src={firstcthulhu} />
-        <OverlapGroup3>
-          <Vector src="/img/vector@1x.svg" />
-          <Vector1 src="/img/vector@2x.svg" />
-          <Headline className={headlineProps.className} />
-        </OverlapGroup3>
-        <a href="https://mint.cthulhuclubnft.com" target="_blank">
-          <MintNowButton src={mintNowButton} />
-        </a>
-        <DesktopNavbar>
-          <X3805C48449A948A3BD8A12A1C45FA08A11 src={x3805C48449A948A3Bd8A12A1C45Fa08A12} />
-          <CthulhuClubNFT1>{cthulhuClubNft2}</CthulhuClubNFT1>
-          <Right>
-            <DesktopMenu>
-              <a href="#welcome-to-cthulhu-club">
+    return (
+      <div className="container-center-horizontal">
+        <div className="desktop-1 screen">
+          <OverlapGroupContainer>
+            <OverlapGroupContainer1>
+              <OverlapGroup>
+                <Ellipse19 src="/img/ellipse-19@2x.svg" />
+                <WhatIsCthulhuClub>{whatIsCthulhuClub}</WhatIsCthulhuClub>
+                <CthulhuClubIsDesi>{cthulhuClubIsDesi}</CthulhuClubIsDesi>
+                <Rectangle7 src="/img/rectangle-7@1x.svg" />
+                <Background1 src={background1} />
+              </OverlapGroup>
+              <OverlapGroup3>
+                <Ellipse8 src="/img/ellipse-8@2x.svg" />
+                <Roadmap>
+                  <Roadmap1>{roadmap1}</Roadmap1>
+                  <PhaseContainer>
+                    <Phase01>{phase01}</Phase01>
+                    <Phase02>{phase02}</Phase02>
+                    <Phase03>{phase03}</Phase03>
+                  </PhaseContainer>
+                  <FlexRow>
+                    <MintOut1111Cth>{mintOut1111Cth}</MintOut1111Cth>
+                    <DeployCthulhuAtt>{deployCthulhuAtt}</DeployCthulhuAtt>
+                    <ReleaseSneakPeak>{releaseSneakPeak}</ReleaseSneakPeak>
+                  </FlexRow>
+                </Roadmap>
+                <Group70>
+                  <OverlapGroup2>
+                    <FAQ>{faq1}</FAQ>
+                    <HowManyWillBeMin>
+                      <span className="inter-bold-white-36px">{spanText1}</span>
+                      <span className="inter-normal-white-30px">{spanText2}</span>
+                      <span className="inter-normal-white-36px">{spanText3}</span>
+                      <span className="inter-bold-white-36px">{spanText4}</span>
+                      <span className="inter-normal-white-36px">{spanText5}</span>
+                      <span className="inter-normal-white-30px">{spanText6}</span>
+                      <span className="inter-normal-white-36px">{spanText7}</span>
+                      <span className="inter-bold-white-36px">{spanText8}</span>
+                      <span className="inter-normal-white-36px">{spanText9}</span>
+                      <span className="inter-normal-white-30px">{spanText10}</span>
+                      <span className="inter-normal-white-36px">{spanText11}</span>
+                      <span className="inter-bold-white-36px">{spanText12}</span>
+                      <span className="inter-normal-white-36px">{spanText13}</span>
+                      <span className="inter-normal-white-30px">{spanText14}</span>
+                      <span className="inter-normal-white-36px">{spanText15}</span>
+                      <span className="inter-bold-white-36px">{spanText16}</span>
+                      <span className="inter-normal-white-30px">{spanText17}</span>
+                      <span className="inter-bold-white-36px">{spanText18}</span>
+                      <span className="inter-normal-white-36px">{spanText19}</span>
+                    </HowManyWillBeMin>
+                  </OverlapGroup2>
+                  <Group69>
+                    <NFTSneakPeak>{nftSneakPeak}</NFTSneakPeak>
+                    <OverlapGroup1>
+                      <Group67>
+                        <NFTList3 className={nFTList31Props.className} />
+                        <NFTList3 className={nFTList32Props.className} />
+                      </Group67>
+                      <NftListContainer>
+                        <NFTList3 className={nFTList33Props.className} />
+                        <NFTList3 className={nFTList34Props.className} />
+                        <NFTList3 className={nFTList35Props.className} />
+                      </NftListContainer>
+                      <ButtonDefault2
+                        chevronRight1={buttonDefault2Props.chevronRight1}
+                        className={buttonDefault2Props.className}
+                      />
+                      <X1261 src={x1261} />
+                      <X2170 src={x2170} />
+                      <X2705 src={x2705} />
+                    </OverlapGroup1>
+                  </Group69>
+                </Group70>
+              </OverlapGroup3>
+            </OverlapGroupContainer1>
+            <OverlapGroup4>
+              <DesktopFooterLight2 />
+              <JoinTheClub>{joinTheClub}</JoinTheClub>
+              <a href="https://www.t.me/cthulhuclubnft" target="_blank">
+                <Telegram>{telegram}</Telegram>
+              </a>
+              <Line20 src="/img/line-20@2x.svg" />
+              <a href="https://discord.gg/AYaEfzuXqN" target="_blank">
+                <Discord>{discord}</Discord>
+              </a>
+              <Line19 src="/img/line-20@2x.svg" />
+              <a href="https://twitter.com/cthulhuclubnft" target="_blank">
+                <Twitter>{twitter}</Twitter>
+              </a>
+            </OverlapGroup4>
+          </OverlapGroupContainer>
+          <Firstcthulhu className="animate-enter2" src={firstcthulhu} />
+          <OverlapGroup5>
+            <Vector src="/img/vector@1x.svg" />
+            <Vector1 src="/img/vector@2x.svg" />
+            <Headline className={headlineProps.className} />
+          </OverlapGroup5>
+          <a href="https://mint.cthulhuclubnft.com" target="_blank">
+            <MintNowButton src={mintNowButton} />
+          </a>
+          <DesktopNavbar>
+            <X3805C48449A948A3BD8A12A1C45FA08A1 src={x3805C48449A948A3Bd8A12A1C45Fa08A1} />
+            <CthulhuClubNFT>{cthulhuClubNft}</CthulhuClubNFT>
+            <Right>
+              <DesktopMenu>
                 <TextLink>
                   <Place>{place}</Place>
                 </TextLink>
-              </a>
-              <a href="https://mint.cthulhuclubnft.com" target="_blank">
-                <TextLink1>
-                  <Mint>{mint}</Mint>
-                </TextLink1>
-              </a>
-              <a href="#roadmap">
+                <a href="https://mint.cthulhuclubnft.com" target="_blank">
+                  <TextLink1>
+                    <Mint>{mint}</Mint>
+                  </TextLink1>
+                </a>
                 <TextLink2>
                   <Roadmap2>{roadmap2}</Roadmap2>
                 </TextLink2>
-              </a>
-              <a href="#group-70">
                 <TextLink3>
                   <FAQ1>{faq2}</FAQ1>
                 </TextLink3>
-              </a>
-            </DesktopMenu>
-          </Right>
-        </DesktopNavbar>
+              </DesktopMenu>
+            </Right>
+          </DesktopNavbar>
+        </div>
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 const OverlapGroupContainer = styled.div`
@@ -276,13 +270,13 @@ const Rectangle7 = styled.img`
 
 const Background1 = styled.img`
   position: absolute;
-  width: 313px;
-  height: 286px;
-  top: 436px;
-  left: 267px;
+  width: 414px;
+  height: 378px;
+  top: 376px;
+  left: 199px;
 `;
 
-const OverlapGroup5 = styled.div`
+const OverlapGroup3 = styled.div`
   position: absolute;
   width: 1505px;
   height: 2751px;
@@ -497,57 +491,11 @@ const OverlapGroup4 = styled.div`
   margin-top: 299px;
 `;
 
-const DesktopFooterLight2 = styled.div`
-  position: absolute;
-  width: 1443px;
-  height: 133px;
-  top: 0;
-  left: 0;
-  display: flex;
-  padding: 23.6px 39px;
-  align-items: center;
-  background-color: var(--electric-violet);
-`;
-
-const X3805C48449A948A3BD8A12A1C45FA08A1 = styled.img`
-  width: 62px;
-  height: 79px;
-  align-self: flex-start;
-  margin-left: 29px;
-  object-fit: cover;
-`;
-
-const CthulhuClubNFT = styled.div`
-  ${H3}
-  width: 279px;
-  min-height: 43px;
-  margin-left: 16px;
-  font-weight: 700;
-  color: var(--light-background);
-  line-height: 36px;
-  white-space: nowrap;
-`;
-
-const Copyright = styled.div`
-  min-height: 44px;
-  margin-left: 704px;
-  margin-top: 11px;
-  min-width: 275px;
-  font-family: var(--font-family-inter);
-  font-weight: 400;
-  color: var(--light-background);
-  font-size: 18px;
-  letter-spacing: 0;
-`;
-
 const JoinTheClub = styled.div`
+  ${InterNormalWhite46px}
   position: absolute;
   top: 4px;
   left: 579px;
-  font-family: var(--font-family-inter);
-  font-weight: 400;
-  color: var(--light-background);
-  font-size: 46px;
   letter-spacing: 0;
 `;
 
@@ -605,14 +553,14 @@ const Firstcthulhu = styled.img`
   display: block;
   opacity: 0;
 
-  &.animate-enter1 {
+  &.animate-enter2 {
     display: block;
-    animation: animate-enter1-frames 0.2s ease-in-out 0s 1 normal forwards;
+    animation: animate-enter2-frames 0.2s ease-in-out 0s 1 normal forwards;
     opacity: 0;
   }
 `;
 
-const OverlapGroup3 = styled.div`
+const OverlapGroup5 = styled.div`
   position: absolute;
   width: 1013px;
   height: 759px;
@@ -657,14 +605,14 @@ const DesktopNavbar = styled.div`
   background-color: var(--electric-violet);
 `;
 
-const X3805C48449A948A3BD8A12A1C45FA08A11 = styled.img`
+const X3805C48449A948A3BD8A12A1C45FA08A1 = styled.img`
   width: 62px;
   height: 79px;
   align-self: flex-start;
   object-fit: cover;
 `;
 
-const CthulhuClubNFT1 = styled.div`
+const CthulhuClubNFT = styled.div`
   ${H3}
   width: 279px;
   min-height: 43px;

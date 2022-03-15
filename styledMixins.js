@@ -160,6 +160,70 @@ export const InterNormalWhite115px = css`
   font-style: normal;
 `;
 
+export const InterNormalWhite16px = css`
+  color: var(--light-background);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxxxs);
+  font-weight: 400;
+  font-style: normal;
+`;
+
+export const InterLightWhite20px = css`
+  color: var(--light-background);
+  font-family: var(--font-family-inter);
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+`;
+
+export const InterNormalWhite31px = css`
+  color: var(--light-background);
+  font-family: var(--font-family-inter);
+  font-size: 31px;
+  font-weight: 400;
+  font-style: normal;
+`;
+
+export const InterLightWhite26px = css`
+  color: var(--light-background);
+  font-family: var(--font-family-inter);
+  font-size: 26px;
+  font-weight: 300;
+  font-style: normal;
+`;
+
+export const InterNormalWhite18px = css`
+  color: var(--light-background);
+  font-family: var(--font-family-inter);
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+`;
+
+export const InterNormalWhite46px = css`
+  color: var(--light-background);
+  font-family: var(--font-family-inter);
+  font-size: 46px;
+  font-weight: 400;
+  font-style: normal;
+`;
+
+export const InterNormalWhite23px = css`
+  color: var(--light-background);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxs);
+  font-weight: 400;
+  font-style: normal;
+`;
+
+export const MontserratBoldWhite9px = css`
+  color: var(--light-background);
+  font-family: var(--font-family-montserrat);
+  font-size: 9px;
+  font-weight: 700;
+  font-style: normal;
+`;
+
 export const Border1pxLightBackground = css`
   border: 1px solid var(--light-background);
 `;
@@ -174,6 +238,15 @@ export const KeyframesAnimateEnterFrames = css`
 `;
 
 export const KeyframesAnimateEnter1Frames = css`
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+`;
+
+export const KeyframesAnimateEnter2Frames = css`
   from {
     opacity: 0;
   }
